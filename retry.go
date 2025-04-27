@@ -1,4 +1,4 @@
-package lo
+package xtlo
 
 import (
 	"sync"

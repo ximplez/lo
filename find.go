@@ -1,11 +1,11 @@
-package lo
+package xtlo
 
 import (
 	"fmt"
 	"time"
 
-	"github.com/samber/lo/internal/constraints"
-	"github.com/samber/lo/internal/rand"
+	"github.com/ximplez/xtool/xtlo/internal/constraints"
+	"github.com/ximplez/xtool/xtlo/internal/rand"
 )
 
 // IndexOf returns the index at which the first occurrence of a value is found in an array or return -1

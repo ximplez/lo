@@ -1,11 +1,11 @@
-package lo
+package xtlo
 
 import (
 	"context"
 	"sync"
 	"time"
 
-	"github.com/samber/lo/internal/rand"
+	"github.com/ximplez/xtool/xtlo/internal/rand"
 )
 
 type DispatchingStrategy[T any] func(msg T, index uint64, channels []<-chan T) int

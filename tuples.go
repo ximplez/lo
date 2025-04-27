@@ -1,4 +1,4 @@
-package lo
+package xtlo
 
 // T2 creates a tuple from a list of values.
 // Play: https://go.dev/play/p/IllL3ZO4BQm

@@ -1,4 +1,4 @@
-package lo
+package xtlo
 
 import (
 	"math"
@@ -7,7 +7,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/samber/lo/internal/rand"
+	"github.com/ximplez/xtool/xtlo/internal/rand"
 
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"

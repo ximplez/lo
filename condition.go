@@ -1,4 +1,4 @@
-package lo
+package xtlo
 
 // Ternary is a 1 line if/else statement.
 // Take care to avoid dereferencing potentially nil pointers in your A/B expressions, because they are both evaluated. See TernaryF to avoid this problem.

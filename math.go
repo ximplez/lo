@@ -1,7 +1,7 @@
-package lo
+package xtlo
 
 import (
-	"github.com/samber/lo/internal/constraints"
+	"github.com/ximplez/xtool/xtlo/internal/constraints"
 )
 
 // Range creates an array of numbers (positive and/or negative) with given length.

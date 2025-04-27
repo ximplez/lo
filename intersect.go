@@ -1,4 +1,4 @@
-package lo
+package xtlo
 
 // Contains returns true if an element is present in a collection.
 func Contains[T comparable](collection []T, element T) bool {

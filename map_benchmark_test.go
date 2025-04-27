@@ -1,4 +1,4 @@
-package lo
+package xtlo
 
 import (
 	"math/rand"
@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	lop "github.com/samber/lo/parallel"
 	"github.com/thoas/go-funk"
+	lop "github.com/ximplez/xtool/xtlo/parallel"
 )
 
 func sliceGenerator(size uint) []int64 {

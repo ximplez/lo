@@ -1,4 +1,4 @@
-package lo
+package xtlo
 
 import (
 	"fmt"
@@ -466,18 +466,18 @@ func TestMapEntries(t *testing.T) {
 		}, map[string]any{"b": 5})
 	}
 
-	//// OverlappingKeys
-	//// because using range over map, the order is not guaranteed
-	//// this test is not deterministic
-	//{
+	// // OverlappingKeys
+	// // because using range over map, the order is not guaranteed
+	// // this test is not deterministic
+	// {
 	//	mapEntriesTest(t, map[string]any{"foo": 1, "foo2": 2, "Foo": 2, "Foo2": "2", "bar": "2", "ccc": true}, func(k string, v any) (string, any) {
 	//		return string(k[0]), v
 	//	}, map[string]any{"F": "2", "b": "2", "c": true, "f": 2})
 	//	mapEntriesTest(t, map[string]string{"foo": "1", "foo2": "2", "Foo": "2", "Foo2": "2", "bar": "2", "ccc": "true"}, func(k string, v string) (string, string) {
 	//		return v, k
 	//	}, map[string]string{"1": "foo", "2": "bar", "true": "ccc"})
-	//}
-	//NormalMappers
+	// }
+	// NormalMappers
 	{
 		mapEntriesTest(t, map[string]string{"foo": "1", "foo2": "2", "Foo": "2", "Foo2": "2", "bar": "2", "ccc": "true"}, func(k string, v string) (string, string) {
 			return k, k + v
